@@ -3998,4 +3998,24 @@
 						padding: 0;
 					}
 
-	}
+  }
+
+ /* Custom Styles */
+#banner .content header {
+  width: 55%;
+}
+
+#five .row .five-table {
+  margin: 0 4em 0 37%;
+  text-align: left;
+}
+
+#seven .row .five-table {
+  margin: 0 4em 0 15%;
+  text-align: left;
+}
+
+#seven .list li {
+  list-style: none;
+  list-style-type: none;
+}
