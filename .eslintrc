@@ -1,0 +1,22 @@
+{
+  "extends": "airbnb-base/legacy",
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "no-console": 0,
+    "no-underscore-dangle": 0,
+    "func-names": 0,
+    "vars-on-top": 0
+  },
+  "settings": {
+    "import/resolve": {
+      "moduleDirectory": ["node_modules", "src"]
+    }
+  },
+  "globals": {
+    "__DEVELOPMENT__": true,
+    "__CLIENT__": true,
+    "__SERVER__": true
+  }
+}
